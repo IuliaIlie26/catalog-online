@@ -1,0 +1,423 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Iulia Ilie",
+      "email": "iulia.ilie123@gmail.com",
+      "username": "iulia.ilie",
+      "password": "iuliailie123",
+      "isTeacher": false
+    },
+    {
+      "id": 2,
+      "name": "Madalin Branea",
+      "email": "madab1990@gmail.com",
+      "username": "madab",
+      "password": "madab123",
+      "isTeacher": false
+    },
+    {
+      "id": 3,
+      "name": "Doru Codoi",
+      "email": "dorucodoi@gmail.com",
+      "username": "doru.codoi",
+      "password": "doru123",
+      "isTeacher": false
+    },
+    {
+      "id": 4,
+      "name": "Marin Popescu",
+      "email": "marinp@gmail.com",
+      "username": "marin.popescu",
+      "password": "marinmarin",
+      "isTeacher": false
+    },
+    {
+      "id": 5,
+      "name": "Ana Banana",
+      "email": "anabanana@gmail.com",
+      "username": "anab",
+      "password": "anabanana",
+      "isTeacher": false
+    },
+    {
+      "id": 6,
+      "name": "Dorin Stuparu",
+      "email": "dorinstuparu@gmail.com",
+      "username": "dorinel",
+      "password": "dorin123",
+      "isTeacher": false
+    },
+    {
+      "id": 7,
+      "name": "Rares Bamac",
+      "email": "bamacr@gmail.com",
+      "username": "raresb",
+      "password": "dummy",
+      "isTeacher": false
+    },
+    {
+      "id": 8,
+      "name": "Alexandra Nan",
+      "email": "alexandranan@gmail.com",
+      "username": "alexandran",
+      "password": "etcetc",
+      "isTeacher": false
+    },
+    {
+      "id": 9,
+      "name": "Maria Popescu",
+      "email": "m.p@gmail.com",
+      "username": "mariap",
+      "password": "password",
+      "isTeacher": false
+    },
+    {
+      "id": 10,
+      "name": "Daniela Istrate",
+      "email": "istratedia@gmail.com",
+      "username": "dia_istrate",
+      "password": "parola",
+      "isTeacher": false
+    },
+    {
+      "id": 11,
+      "name": "Bogadan Lupu",
+      "email": "bogdan.lupu@gmail.com",
+      "username": "lupu.bogdan",
+      "password": "lupu123",
+      "isTeacher": true
+    },
+    {
+      "id": 12,
+      "name": "Aldea Costel",
+      "email": "aldea.costel@gmail.com",
+      "username": "aldea.costel",
+      "password": "qwerty",
+      "isTeacher": true
+    },
+    {
+      "id": 13,
+      "name": "Maria Anton",
+      "email": "m.anton@gmail.com",
+      "username": "mariap",
+      "password": "password",
+      "isTeacher": true
+    },
+    {
+      "id": 14,
+      "name": "Litz",
+      "email": "litz@gmail.com",
+      "username": "litz",
+      "password": "zaq12wsx",
+      "isTeacher": true
+    },
+    {
+      "id": 15,
+      "name": "Marius B",
+      "email": "m.b@gmail.com",
+      "username": "mariusb",
+      "password": "password",
+      "isTeacher": true
+    },
+    {
+      "id": 16,
+      "name": "Dorner",
+      "email": "dorner@gmail.com",
+      "username": "dorner",
+      "password": "zaq12wsx",
+      "isTeacher": true
+    },
+    {
+      "name": "Alexandra Diaconu",
+      "userName": "ale.diaconu",
+      "passWord": "diaconu",
+      "email": "ale.diaconu@gmail.com",
+      "isTeacher": false,
+      "id": 17
+    },
+    {
+      "passWord": "iuliailie123",
+      "id": 18
+    },
+    {
+      "passWord": "iuliailie123",
+      "id": 19
+    },
+    {
+      "passWord": "iuliailie123",
+      "id": 20
+    },
+    {
+      "passWord": "",
+      "id": 21
+    },
+    {
+      "passWord": "",
+      "id": 22
+    },
+    {
+      "passWord": "",
+      "id": 23
+    },
+    {
+      "passWord": "",
+      "id": 24
+    },
+    {
+      "passWord": "",
+      "id": 25
+    },
+    {
+      "passWord": "",
+      "id": 26
+    },
+    {
+      "passWord": "",
+      "id": 27
+    },
+    {
+      "passWord": "",
+      "id": 28
+    },
+    {
+      "passWord": "",
+      "id": 29
+    },
+    {
+      "passWord": "",
+      "id": 30
+    },
+    {
+      "passWord": "",
+      "id": 31
+    },
+    {
+      "passWord": "",
+      "id": 32
+    },
+    {
+      "passWord": "",
+      "id": 33
+    },
+    {
+      "passWord": "",
+      "id": 34
+    },
+    {
+      "passWord": "",
+      "id": 35
+    },
+    {
+      "passWord": "",
+      "id": 36
+    },
+    {
+      "passWord": "",
+      "id": 37
+    },
+    {
+      "passWord": "",
+      "id": 38
+    },
+    {
+      "passWord": "",
+      "id": 39
+    },
+    {
+      "passWord": "",
+      "id": 40
+    },
+    {
+      "passWord": "",
+      "id": 41
+    },
+    {
+      "passWord": "",
+      "id": 42
+    },
+    {
+      "passWord": "",
+      "id": 43
+    },
+    {
+      "passWord": "iuliailie123",
+      "id": 44
+    },
+    {
+      "passWord": "iuliailie123",
+      "id": 45
+    },
+    {
+      "name": "Test",
+      "userName": "test",
+      "passWord": "test",
+      "email": "test",
+      "id": 46
+    },
+    {
+      "name": "test",
+      "userName": "test",
+      "passWord": "test",
+      "email": "test",
+      "id": 47
+    },
+    {
+      "userName": "in",
+      "passWord": "i",
+      "email": "dwdw",
+      "id": 48
+    },
+    {
+      "userName": "ddddd",
+      "passWord": "iuliailie123",
+      "id": 49
+    },
+    {
+      "passWord": "iuliailie123",
+      "id": 50
+    },
+    {
+      "passWord": "iuliailie123",
+      "id": 51
+    },
+    {
+      "passWord": "iuliailie123",
+      "id": 52
+    },
+    {
+      "passWord": "iuliailie123",
+      "id": 53
+    },
+    {
+      "name": "ddd",
+      "passWord": "iuliailie123",
+      "id": 54
+    },
+    {
+      "name": "ddd",
+      "userName": "eyv",
+      "passWord": "bk",
+      "email": "ddaa",
+      "id": 55
+    }
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "id_course": 2,
+      "id_student": 1,
+      "grade": 0
+    },
+    {
+      "id": 2,
+      "id_course": 4,
+      "id_student": 2,
+      "grade": 0
+    },
+    {
+      "id": 3,
+      "id_course": 6,
+      "id_student": 2,
+      "grade": 0
+    },
+    {
+      "id": 4,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+    },
+    {
+      "id": 5,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+    },
+    {
+      "id": 6,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+    },
+    {
+      "id": 7,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+    },
+    {
+      "id": 8,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+    },
+    {
+      "id": 9,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+    },
+    {
+      "id": 10,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+    },
+    {
+      "id": 11,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+    },
+    {
+      "id": 12,
+      "id_course": 4,
+      "id_student": 3,
+      "grade": 0
+    },
+    {
+      "id_course": 2,
+      "id_student": "2",
+      "grade": 0,
+      "id": 13
+    },
+    {
+      "id_course": 1,
+      "id_student": "1",
+      "grade": 10,
+      "id": 14
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "id_teacher": 11,
+      "name": "Web"
+    },
+    {
+      "id": 2,
+      "id_teacher": 12,
+      "name": "Programare Distribuita"
+    },
+    {
+      "id": 3,
+      "id_teacher": 13,
+      "name": "Inginerie software"
+    },
+    {
+      "id": 4,
+      "id_teacher": 14,
+      "name": "Knowledge Management"
+    },
+    {
+      "id": 5,
+      "id_teacher": 15,
+      "name": "Marketing"
+    },
+    {
+      "id": 6,
+      "id_teacher": 16,
+      "name": "Jocuri 3D"
+    }
+  ]
+}

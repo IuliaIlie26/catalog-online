@@ -1,0 +1,58 @@
+<body>
+  <h1 align="center" style="color:rgb(8, 193, 255)">Bun venit la catalogul online!</h1>
+  <form id="login" align="left">
+    <div class=login>
+
+      <h2 style="color:rgb(8, 193, 255)">Login</h2>
+
+      <div class="form-group">
+        <input type="username" class="form-control" id="idUsername" name="username" [(ngModel)]="username" placeholder="Nume utilizator">
+      </div>
+
+      <div class="form-group">
+        <input type="password" class="form-control" id="idPassword" name="password" [(ngModel)]="password" placeholder="Parola">
+      </div>
+
+      <p class="text-danger">{{status}}</p>
+
+      <button type="button" class="button" (click)="onClick()">Conecteaza-te</button>
+    </div>
+
+  </form>
+  <form id="register" align="right">
+    <div class=register>
+      <fieldset>
+        <h2 style="color:rgb(8, 193, 255)">Inregistrare</h2>
+
+
+        <label for="idLastName">Nume si prenume</label>
+        <input type="lastname" class="form-control" id="idLastName" name="lastname" [(ngModel)]="name">
+
+        <label for="idEmail">E-mail</label>
+        <input type="email" class="form-control" id="idEmail" name="email" [(ngModel)]="email">
+
+        <label for="idUsername">Username</label>
+        <input type="username" class="form-control" id="idUsername" name="username" [(ngModel)]="username2">
+
+        <label for="idPassword">Parola</label>
+        <input type="password" class="form-control" id="idPassword" name="password" [(ngModel)]="password2">
+
+        <label for="idPassword2">Repeta parola</label>
+        <input type="password" class="form-control" id="idPassword2" name="password2" [(ngModel)]="password3">
+
+        <p class="text-danger">{{status2}}</p>
+
+        <button type="button" class="button" (click)="onRegisterClick()">Inregistreaza-te!</button>
+
+      </fieldset>
+      <fieldset>
+        <div>
+          <input type="radio" class="form-check-input" name="isTeacher" id="optionsRadios1"  [value]=false checked="" [(ngModel)]="isTeacher"> Student
+          <br>
+          <input type="radio" class="form-check-input" name="isTeacher" id="optionsRadios2" [value]=true checked="" [(ngModel)]="isTeacher"> Profesor
+         
+        </div>
+      </fieldset>
+     </div>
+  </form>
+</body>

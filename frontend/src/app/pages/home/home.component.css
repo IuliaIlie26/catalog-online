@@ -1,0 +1,12 @@
+.table
+{   
+    float: left;
+    width: 70%;   
+}  
+
+.courses
+{
+   position: absolute;
+   left: 65%;
+   top: 10%;
+}

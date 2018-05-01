@@ -1,0 +1,68 @@
+.table
+{   
+    float: left;
+    width: 70%;   
+} 
+
+.table-active{  background-color: rgb(8, 193, 255);
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 2px;
+    &.active {
+        color: white;
+        background: gray; 
+}  }
+
+.table-active-content{  background-color: rgb(255,255,255);
+    color: black;
+    padding: 4px 10px;
+    border-radius: 2px;
+    &.active {
+        color: white;
+        background: gray; 
+}  }
+
+
+
+.courses
+{
+   position: absolute;
+   left: 55%;
+   top: 10%;
+  
+   background-color: rgb(8, 193, 255);
+        color: #fff;
+        padding: 4px 10px;
+        border-radius: 2px;
+        &.active {
+            color: white;
+            background: gray; 
+}  
+   
+}
+
+legend
+{
+   // color:rgb(8, 193, 255);
+    color:white;
+        
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    
+}
+
+.button{ background-color:white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;}
+
+   
+
+
+
