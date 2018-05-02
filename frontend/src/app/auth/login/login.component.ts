@@ -21,7 +21,6 @@ export class LoginComponent implements OnInit {
   name: string;
   email: string;
   isTeacher: boolean;
-
   private data: User[] = new Array(50);
   private index: number = 0;
   constructor(private userService: UserService, private router: Router) { }
@@ -34,6 +33,7 @@ export class LoginComponent implements OnInit {
 
     });
 
+  
     this.status = "";
     this.status2 = "";
   }
@@ -42,15 +42,20 @@ export class LoginComponent implements OnInit {
 
     if (!(this.username && this.password))
       this.status = "Introdu username-ul si parola!";
+
     else {
 
       this.status = 'Eroare la login!';
+
       this.data.forEach(element => {
         if ((this.username === element.username) && (this.password === element.password)) {
+
           let user = JSON.stringify(element);
           this.router.navigate(['/pages/home'], { queryParams: element });
         }
       });
+
+
     }
   }
 
@@ -68,7 +73,7 @@ export class LoginComponent implements OnInit {
       if (!(this.username2 && this.password3 && this.name && this.email && this.password2)) { this.status2 = "Completeaza toate campurile!"; }
       else if (this.password3 != this.password2) {
         this.status2 = "Parolele nu coincid!";
-      } else{
+      } else {
         this.router.navigate(['/pages/home'], { queryParams: res });
       }
     });
