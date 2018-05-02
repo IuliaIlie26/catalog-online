@@ -386,6 +386,12 @@
       "id_student": "1",
       "grade": 10,
       "id": 14
+    },
+    {
+      "id_course": 1,
+      "id_student": "2",
+      "grade": 4,
+      "id": 15
     }
   ],
   "courses": [

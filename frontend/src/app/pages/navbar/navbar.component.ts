@@ -16,6 +16,7 @@ export class NavbarComponent implements OnInit {
   displayString: String;
   course: Course;
   executeCourseUpdate: boolean = true;
+  actualDate = new Date();
   constructor(private thisRoute: ActivatedRoute, private CourseService: CourseService) { }
   
   @ViewChild(HomeComponent) home: HomeComponent;
@@ -59,13 +60,13 @@ export class NavbarComponent implements OnInit {
 
     if (this.loggedUser.isTeacher) {
       if (!(this.course === undefined)) {
-        returnedString = "Logged in as " + this.loggedUser.name + " and you are teaching " + this.course.name;
+        returnedString = "Buna ziua, " + this.loggedUser.name + "! Cursul predat de dvs. este: " + this.course.name;
       } else
-        returnedString = "Logged in as " + this.loggedUser.name + " and you are teaching nothing at the moment";
+        returnedString = "Buna ziua, " + this.loggedUser.name + "! Nu predati niciun curs la momentul de fata.";
 
     }
     else {
-      returnedString = "Logged in as " + this.loggedUser.name;
+      returnedString = "Salut, " + this.loggedUser.name;
     }
     return returnedString;
   }

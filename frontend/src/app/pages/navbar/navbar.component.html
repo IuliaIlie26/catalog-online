@@ -1,21 +1,26 @@
 <div class="main-container">
   
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">LogOut</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+    
 
-
+    <style>
+      ul {
+          list-style-type:upper-roman;
+          text-align: center;
+      }
+      </style>
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav mr-auto">
         
         <li class="nav-item">
           <header class="navbar-brand">{{displayString}}</header> 
-         
-      
+          <header class="navbar-brand">Data : {{actualDate | date: 'dd/MM/yy hh:mm a'}}</header> 
         </li>
 
         
       </ul>
     </div>
+    <a class="navbar-brand" href="#">Delogare</a>
   </nav>
 </div>
 
